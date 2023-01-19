@@ -1,0 +1,38 @@
+/* Write your CSS code here */
+.header-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.header-links-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+  width: 30%;
+}
+.link-item {
+  font-family: roboto;
+  color: #475569;
+  font-size: 18px;
+  margin: 0px 10px;
+}
+.home-header-logo {
+  height: 60px;
+  width: 200px;
+}
+.img-box {
+  padding: 20px;
+}
+
+.logout-btn {
+  background-color: #0967d2;
+  border: 0px;
+  color: #ffffff;
+  padding: 10px 15px;
+  border-radius: 5px;
+}

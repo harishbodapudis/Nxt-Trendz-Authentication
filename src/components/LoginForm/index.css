@@ -1,0 +1,87 @@
+/* Write your CSS code here */
+.login-main-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.login-page-body {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  margin: auto;
+}
+
+.login-img {
+  width: 100%;
+  min-width: 320px;
+  min-height: 240px;
+}
+.login-img-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 55%;
+}
+
+.login-logo-box {
+  text-align: center;
+}
+.login-form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: roboto;
+  width: 40%;
+  padding: 20px 5px;
+  height: 55vh;
+  margin-left: 10px;
+  box-shadow: 0px 4px 14px 0px #bfbfbf;
+}
+.form-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 40vh;
+  padding: 20px;
+}
+
+.error-msg-box {
+  width: 180px;
+  color: red;
+  padding: 5px;
+  font-size: 10px;
+  text-align: center;
+}
+.submit-btn {
+  width: 100%;
+  background-color: #0967d2;
+  color: #ffffff;
+  border: 0px;
+  border-radius: 5px;
+  font-size: 14px;
+  padding: 8px 20px;
+}
+
+.password-field {
+  padding: 5px 20px 10px 5px;
+  background-color: #d7dfe9;
+  border: 0px;
+  border-radius: 2px;
+  width: 100%;
+}
+.usr-field {
+  padding: 5px 20px 10px 5px;
+  background-color: #d7dfe9;
+  border: 0px;
+  border-radius: 2px;
+  width: 100%;
+}
+.login-form-logo {
+  width: 180px;
+}
